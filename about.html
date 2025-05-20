@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> <!--This is for responsiveness-->
+
+    <title>Just a simple attempt of making a website.</title>
+
+    <link rel = "stylesheet" href= "style.css">  <!-- Comment: this is referring to the css -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+<section class = "sub-header">
+    <nav>
+        <a href="index.html"><img src = "everyday.jpg"></a>
+        <div class = "nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i> <!-- This part is for the cross icon-->
+            <ul>
+                <li><a href = "vinayaga.html">HOME</a></li>
+                <li><a href = "aboutvinayaga.html">ABOUT</a></li>
+                <li><a href = "coursevinayaga.html">COURSE</a></li>
+                <li><a href = "">BLOG</a></li>
+                <li><a href = "">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>  <!--This is for menu button-->
+    </nav>
+    <h1>Our Certificate and online program</h1>
+
+</section>
+
+
+<!--- blog page content ---->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="everyday.jpg">
+            <h2>Our Certificate and online program</h2>
+            <p> thottu thottu sellumm miles scorpiye lmao, pudhu malar thottu sellum kaatrai niruthu thulli thulli maaiyai vanthayeeeeeeeeee</p>
+            <br>
+            <p>thin thin thinaka thin thintha thinthana thinaka thin</p>
+            <br>
+            <p>thin thin thinaka thin thintha thinthana thinaka thin mah mum marey thin thin thinaka thin thintha thinthana thinaka thin mah mum mareythin thin thinaka thin thintha thinthana thinaka thin mah mum marey </p>
+
+            <div class="comment-box">
+
+                <h3>Leave A Comment</h3>
+                <form class="comment-form">
+                   <input type="text" placeholder="Enter Name">
+                   <input type="email" placeholder="Enter Email">
+                   <textarea rows="5" placeholder="Your comment"></textarea>
+                   <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer science</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>48</span>
+            </div>
+            <div>
+                <span>Auto CAD</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--    Footer   -->
+
+<section class="footer">
+    <h4> About us </h4>
+    <p>Neela nilavey nilavin alagey <br> mara valige viriyum chiriye</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i> 
+    </div>
+
+    <p>Made with <i class="fa-regular fa-heart"> by Srivarshini</p>
+    
+</section>
+
+
+
+
+<!--
+
+<h2> question: What Can JavaScript Do?</h2>
+<p1 id="ithudemo">JavaScript can change the style of an HTML element.</p1>
+<button type="button" onclick="document.getElementById('ithudemo').style.fontSize='35px'">Click Me!</button>
+
+
+<p3> This is a painting</p3>
+<p11 id="demo" style="display:none">Of your apatha!</p11>
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+<p id="demo"></p>
+
+
+<img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+<p style="color:red;">This is a red paragraph.</p>
+<p title="This is called a tooltip">When I hover over this paragraph, you will get a box.</p>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+-->
+
+
+
+ <!----- JavaScript for Toggle Menu ---i think js is embedded inside here-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+</body>
+</html>
